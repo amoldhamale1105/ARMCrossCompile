@@ -4,5 +4,4 @@ arm_app:
 
 clean:
 	rm -rf bin/*
-	rm -rf build/
-	mkdir build
+	rm -rf build/*
