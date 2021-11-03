@@ -6,4 +6,4 @@ set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin)
 
 # define executable and its source file
-add_executable(TestApp src/BBB_led_control.c)
+add_executable(${CMAKE_PROJECT_NAME} src/BBB_led_control.c)
