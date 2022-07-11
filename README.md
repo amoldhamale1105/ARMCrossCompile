@@ -5,7 +5,7 @@ Build cross-compiled apps for arm architecture.
 - Add your source file to the `add_executable()` macro in `CMakeLists.txt` as shown for the sample source file  
 - Alternatively, this is set up as a template which you can base your project on  
 
-## Build for host x86
+### Build for host x86
 - If you're working on the command line alone, create a build directory manually with `mkdir build` at the project root  
 - Run the following commands from the build directory
 ```
@@ -14,7 +14,7 @@ make
 ```
 - Another option is to open the project with VS code and do a **clean reconfigure** followed by **clean rebuild**  
 
-## Build for target ARM
+### Build for target ARM
 - Be at the root of the project directory
 - Run the following commands
 ```
