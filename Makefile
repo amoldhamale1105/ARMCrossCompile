@@ -4,5 +4,5 @@ arm_app:
 	./build-arm-app.sh
 
 clean:
-	rm -rf bin/*
-	rm -rf build/*
+	rm -rf bin/
+	rm -rf build/

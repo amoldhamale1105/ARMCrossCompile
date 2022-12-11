@@ -3,11 +3,12 @@ set(CMAKE_SYSTEM_NAME Linux)
 set(CMAKE_SYSTEM_PROCESSOR ARM)
 
 # which compilers to use
+# cross-compiler bin directory needs to be added to path env var for this to work
 set(CMAKE_C_COMPILER arm-linux-gnueabihf-gcc)
 set(CMAKE_CXX_COMPILER arm-linux-gnueabihf-g++)
 
-
-set(CMAKE_FIND_ROOT_PATH /home/amol/Projects/BBB/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin)
+# The following commands will be needed if you're pointing to or linking anything from sysroot
+set(CMAKE_FIND_ROOT_PATH /path/to/sysroot)
 
 # adjust the default behavior of the find commands:
 # search headers and libraries in the target environment

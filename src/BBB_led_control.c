@@ -3,7 +3,6 @@
  Name        : BBB_led_control.c
  Author      : Amol
  Version     : 1.0
- Copyright   : Your copyright notice
  Description : Controls the BBB user led 3 trigger and brightness values
  ============================================================================
  */
